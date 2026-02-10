@@ -14,8 +14,13 @@ body{
     font-family: robo;
     src: url(roboto.ttf);
 }
-*{font-family: robo;}
-
+*{
+  font-family: robo;
+  cursor: default;
+}
+.pnt{
+  cursor: pointer;
+}
 .link{
   padding: 10px;
 }
@@ -24,9 +29,10 @@ body{
 }
 
 .hder{
+  padding: 10px;
   flex-grow: 1;
   background-color: black;
-  height: var(--h-size);
+  height: fit-content;
   border-bottom: 10px white;
 }
 header{
