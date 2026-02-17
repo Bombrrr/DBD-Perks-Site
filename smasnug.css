@@ -7,7 +7,7 @@ html{
 }
 body{
 	color:lightgray;
-	background-color:black;
+	background-color:#212225;
     font-size: 30px;
 }
 @font-face {
@@ -31,7 +31,7 @@ body{
 .hder{
   padding: 10px;
   flex-grow: 1;
-  background-color: black;
+  background-color: #1c1d20;
   height: fit-content;
   border-bottom: 10px white;
 }
@@ -43,17 +43,4 @@ header{
   display: flex;
   position: fixed;
   width: 100%;
-}
-.menu {
-    background-color: #3788AB;
-    padding: 20px;
-    height: 0px;
-    transition: height 0.5s ease;
-}
-
-.menu:hover {
-    background-color: #AC3864;
-    cursor: pointer;
-    height: 300px;
-
 }
