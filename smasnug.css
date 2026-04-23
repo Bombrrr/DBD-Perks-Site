@@ -22,6 +22,7 @@ body{
 }
 .pnt{
   cursor: pointer;
+  transition: all 0.1s;
 }
 .link{
   padding: 10px;
@@ -51,3 +52,5 @@ header{
   position: fixed;
   width: 100%;
 }
+
+.pnt:hover {height: 70px;}
